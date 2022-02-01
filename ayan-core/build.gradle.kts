@@ -17,7 +17,7 @@ publishing {
             // Applies the component for the release build variant.
             // NOTE : Delete this line code if you publish Native Java / Kotlin Library
 //            from(components["release"])
-
+            from(components.getByName("java"))
 
             // Library Package Name (Example : "com.frogobox.androidfirstlib")
             // NOTE : Different GroupId For Each Library / Module, So That Each Library Is Not Overwritten
