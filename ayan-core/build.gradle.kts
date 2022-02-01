@@ -29,7 +29,7 @@ publishing {
             artifactId = "ayan-core"
 
             // Version Library Name (Example : "1.0.0")
-            version = "1.0.8"
+            version = "1.0.0"
         }
         /*create<MavenPublication>("maven") {
 
