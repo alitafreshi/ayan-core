@@ -1,5 +1,6 @@
 plugins {
     id(Plugins.javaLibrary)
+    id(KotlinPlugins.kotlin)
     id(KotlinPlugins.maven)
 }
 
@@ -28,7 +29,7 @@ publishing {
             artifactId = "ayan-core"
 
             // Version Library Name (Example : "1.0.0")
-            version = "1.0.7"
+            version = "1.0.8"
         }
         /*create<MavenPublication>("maven") {
 
