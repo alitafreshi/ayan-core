@@ -2,7 +2,6 @@ plugins {
     id(Plugins.javaLibrary)
     id(KotlinPlugins.kotlin)
     id(KotlinPlugins.maven)
-
 }
 
 java {
