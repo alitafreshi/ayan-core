@@ -9,7 +9,9 @@ java {
     targetCompatibility = JavaVersion.VERSION_1_8
 }
 
-dependencies{
+dependencies {
+    //core module
+    implementation(project(":ayan-core"))
     //constants module
     implementation(project(":constants"))
 }
@@ -30,10 +32,10 @@ publishing {
 
             // Library Name / Module Name (Example : "androidfirstlib")
             // NOTE : Different ArtifactId For Each Library / Module, So That Each Library Is Not Overwritten
-            artifactId = "ayan-core"
+            artifactId = "ayan-justice-shares-domain"
 
             // Version Library Name (Example : "1.0.0")
-            version = "1.0.1"
+            version = "1.0.0"
         }
     }
 }
