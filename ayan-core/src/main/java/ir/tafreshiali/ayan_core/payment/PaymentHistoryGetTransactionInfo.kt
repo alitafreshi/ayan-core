@@ -32,8 +32,5 @@ data class MessageButtonResponse(
 
 data class KeyValueResponse(
     val Key: String,
-    var Value: String?,
-    var canCopy: Boolean = false,
-    var isLastItem: Boolean = false,
-    var textColor: Int = 0
+    var Value: String?
 )
