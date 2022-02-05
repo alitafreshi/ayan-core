@@ -1,6 +1,7 @@
 package ir.tafreshiali.ayan_core.payment
 
-import ir.tafreshiali.ayan_core.helper.removePishkhanFromString
+import ir.tafreshiali.extension.helper.removePishkhanFromString
+
 
 data class PaymentHistoryGetTransactionListDto(
     val TransactionCategoryTypeName: String,

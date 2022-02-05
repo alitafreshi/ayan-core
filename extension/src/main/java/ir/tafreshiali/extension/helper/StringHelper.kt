@@ -1,4 +1,4 @@
-package ir.tafreshiali.ayan_core.helper
+package ir.tafreshiali.extension.helper
 
 
 fun String.removePishkhanFromString() =
