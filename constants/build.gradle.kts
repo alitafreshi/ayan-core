@@ -27,7 +27,7 @@ publishing {
             artifactId = "ayan-constance"
 
             // Version Library Name (Example : "1.0.0")
-            version = "1.0.2"
+            version = "1.0.3"
         }
     }
 }
