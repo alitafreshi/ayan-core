@@ -20,14 +20,14 @@ publishing {
 
             // Library Package Name (Example : "com.frogobox.androidfirstlib")
             // NOTE : Different GroupId For Each Library / Module, So That Each Library Is Not Overwritten
-            groupId = "com.github.alitafreshi.constance"
+            groupId = "com.github.alitafreshi"
 
             // Library Name / Module Name (Example : "androidfirstlib")
             // NOTE : Different ArtifactId For Each Library / Module, So That Each Library Is Not Overwritten
             artifactId = "ayan-constance"
 
             // Version Library Name (Example : "1.0.0")
-            version = "1.0.6"
+            version = "1.0.7"
         }
     }
 }
