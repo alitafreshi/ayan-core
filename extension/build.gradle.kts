@@ -28,7 +28,7 @@ publishing {
             artifactId = "ayan-extension"
 
             // Version Library Name (Example : "1.0.0")
-            version = "1.0.7"
+            version = "0.0.8"
         }
     }
 }
