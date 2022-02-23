@@ -1,4 +1,4 @@
-package ir.tafreshiali.ayan_core
+package ir.tafreshiali.ayan_core.inquiry_history
 
 data class InquiryBookmarkItemDto(
     val Favorite: Boolean,
