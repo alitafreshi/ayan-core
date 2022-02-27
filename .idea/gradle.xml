@@ -16,6 +16,7 @@
             <option value="$PROJECT_DIR$/constants" />
             <option value="$PROJECT_DIR$/extension" />
             <option value="$PROJECT_DIR$/justice-shares-domain" />
+            <option value="$PROJECT_DIR$/subvention-inquiry-domain" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

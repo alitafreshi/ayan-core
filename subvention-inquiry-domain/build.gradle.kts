@@ -9,6 +9,15 @@ java {
     targetCompatibility = JavaVersion.VERSION_1_8
 }
 
+
+dependencies {
+    //core module
+    implementation(project(":ayan-core"))
+    //constants module
+    implementation(project(":constants"))
+}
+
+
 publishing {
     publications {
         // Creates a Maven publication called "release".
@@ -24,7 +33,7 @@ publishing {
 
             // Library Name / Module Name (Example : "androidfirstlib")
             // NOTE : Different ArtifactId For Each Library / Module, So That Each Library Is Not Overwritten
-            artifactId = "ayan-constance"
+            artifactId = "ayan-subvention-inquiry"
 
             // Version Library Name (Example : "1.0.0")
             version = "0.0.10"
