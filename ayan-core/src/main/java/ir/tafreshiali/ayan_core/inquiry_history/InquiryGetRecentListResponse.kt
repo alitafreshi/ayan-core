@@ -1,7 +1,7 @@
 package ir.tafreshiali.ayan_core.inquiry_history
 
+import ir.tafreshiali.ayan_core.key_value.KeyValueResponse
 import ir.tafreshiali.ayan_core.payment.GeneralDateTimeResponse
-import ir.tafreshiali.ayan_core.payment.KeyValueResponse
 import ir.tafreshiali.ayan_core.payment.NameShowNameResponse
 
 

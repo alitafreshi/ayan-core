@@ -1,26 +1,26 @@
 package ir.tafreshiali.monshi_plus_domain.app_config
 
-import ir.tafreshiali.ayan_core.key_value.AdvanceKeyValue
+import ir.tafreshiali.ayan_core.key_value.KeyValueResponse
 import ir.tafreshiali.ayan_core.payment.GeneralDateTimeResponse
 import ir.tafreshiali.ayan_core.payment.NameShowNameResponse
 
 data class AppConfigResponse(
-    val AboutUs: List<AdvanceKeyValue>,
+    val AboutUs: List<KeyValueResponse>,
     val ContactUs: List<ContactUResponse>,
     val ForbiddenServices: List<NameShowNameResponse>,
     val FrequentlyAskedQuestions: FrequentlyAskedQuestionsResponse,
-    val Others: List<AdvanceKeyValue>,
+    val Others: List<KeyValueResponse>,
     val PopUpMessage: PopUpMessageResponse,
     val ServerTime: GeneralDateTimeResponse,
     val ServerTimeEpoch: Long,
     val SpecialEvent: SpecialEventResponse,
     val Support: String,
-    val TermsAndConditions: List<AdvanceKeyValue>,
+    val TermsAndConditions: List<KeyValueResponse>,
     val TotalNumberOfUnreadMessages: Long,
-    val VehiclePlateLetterMappingsVersion01: List<AdvanceKeyValue>,
-    val VehiclePlateLetterMappingsVersion02: List<AdvanceKeyValue>,
-    val VehiclePlateLetterMappingsVersion03: List<AdvanceKeyValue>,
-    val VehiclePlateLetterMappingsVersion04: List<AdvanceKeyValue>
+    val VehiclePlateLetterMappingsVersion01: List<KeyValueResponse>,
+    val VehiclePlateLetterMappingsVersion02: List<KeyValueResponse>,
+    val VehiclePlateLetterMappingsVersion03: List<KeyValueResponse>,
+    val VehiclePlateLetterMappingsVersion04: List<KeyValueResponse>
 )
 
 data class ContactUResponse(
@@ -59,8 +59,8 @@ data class FrequentlyAskedQuestionsCategoryResponse(
 )
 
 data class ServiceResponse(
-    val QuestionList: List<AdvanceKeyValue>,
-    val Service: AdvanceKeyValue
+    val QuestionList: List<KeyValueResponse>,
+    val Service: KeyValueResponse
 )
 
 data class EventBarResponse(

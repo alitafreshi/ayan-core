@@ -1,5 +1,7 @@
 package ir.tafreshiali.ayan_core.payment
 
+import ir.tafreshiali.ayan_core.key_value.KeyValueResponse
+
 data class PaymentHistoryGetTransactionInfoDto(
     val UniqueID: String
 )
@@ -30,7 +32,3 @@ data class MessageButtonResponse(
     val Title: String
 )
 
-data class KeyValueResponse(
-    val Key: String,
-    var Value: String?
-)
