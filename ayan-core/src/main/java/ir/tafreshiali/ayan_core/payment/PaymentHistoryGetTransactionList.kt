@@ -31,9 +31,9 @@ data class TypeResponse(
     val ShowName: String
 )
 
-open class NameShowNameResponse(
-    open val Name: String,
-    private val ShowName: String
+data class NameShowNameResponse(
+    val Name: String,
+    val ShowName: String
 ) {
     companion object {
         const val ValidForPayment = "ValidForPayment"
