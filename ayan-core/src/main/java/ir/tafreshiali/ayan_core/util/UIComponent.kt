@@ -15,19 +15,20 @@ sealed class UIComponent {
      * @param errorDescription
      * @param stateEvent */
     data class ErrorBottomSheet<StateEvent>(
-        val errorTitle: String = "خطا",
-        val errorDescription: String,
-        val errorButton: String = "تلاش مجدد",
+        var errorTitle: String = "خطا",
+        var errorDescription: String,
+        var errorButton: String = "تلاش مجدد",
+        var isLoginRequired: Boolean = false,
         val stateEvent: StateEvent
     ) : UIComponent()
 
     data class InfoBottomSheet(
-        val infoTitle: String = "توجه",
-        val infoDescription: String,
-        val infoButton: String = "باشه"
+        var infoTitle: String = "توجه",
+        var infoDescription: String,
+        var infoButton: String = "باشه"
     ) : UIComponent()
 
     data class None(
-        val message: String,
+        var message: String,
     ) : UIComponent()
 }

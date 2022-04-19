@@ -12,7 +12,6 @@ sealed class DataState<T> {
     ) : DataState<T>()
 
     data class Loading<T>(
-        //val progressBarState: ProgressBarState = ProgressBarState.Idle
         val bottomSheetState: BottomSheetState = BottomSheetState.Idle
     ) : DataState<T>()
 }
