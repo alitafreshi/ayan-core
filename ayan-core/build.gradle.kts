@@ -10,12 +10,14 @@ java {
 }
 
 dependencies{
+
+    //AndroidX
+    implementation(AndroidX.androidxAnnotation)
+
     //constants module
     implementation(project(":constants"))
     // extension module
     implementation(project(":extension"))
-
-
 }
 
 
@@ -37,7 +39,7 @@ publishing {
             artifactId = "ayan-core"
 
             // Version Library Name (Example : "1.0.0")
-            version = "0.0.17"
+            version = "0.0.18"
         }
     }
 }

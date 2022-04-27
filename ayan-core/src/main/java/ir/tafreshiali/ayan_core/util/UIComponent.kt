@@ -13,10 +13,10 @@ sealed class UIComponent {
      * @param errorTitle
      * @param errorButton
      * @param errorDescription
-     * @param stateEvent */
+     * @param stateEvent*/
     data class ErrorBottomSheet<StateEvent>(
         var errorTitle: String = "خطا",
-        var errorDescription: String,
+        var errorDescription: UiText,
         var errorButton: String = "تلاش مجدد",
         var isLoginRequired: Boolean = false,
         val stateEvent: StateEvent
@@ -24,11 +24,11 @@ sealed class UIComponent {
 
     data class InfoBottomSheet(
         var infoTitle: String = "توجه",
-        var infoDescription: String,
+        var infoDescription: UiText,
         var infoButton: String = "باشه"
     ) : UIComponent()
 
     data class None(
-        var message: String,
+        var message: UiText,
     ) : UIComponent()
 }
