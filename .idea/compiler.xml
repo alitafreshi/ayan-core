@@ -3,7 +3,8 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.8">
       <module name="ayan-core.buildSrc" target="15" />
-      <module name="Ayan_Core.app" target="15" />
+      <module name="Ayan_Core.app" target="11" />
+      <module name="Ayan_Core.ayan-core-ui" target="11" />
       <module name="Core.buildSrc" target="11" />
     </bytecodeTargetLevel>
   </component>
